@@ -1,6 +1,9 @@
+* { 
+    box-sizing:border-box;
+  }
 h1
     {
-         font-size: 30px;
+         font-size: 30px; 
     }
 #p01{
     color: green;
@@ -10,7 +13,7 @@ h2{
 }
 p
     {
-        font-size: 30px
+        font-size: 30px;
     }
 form
     {
@@ -58,6 +61,10 @@ li{
     margin-bottom:5px;
     color: maroon;
 }
-.required{
-    color: red;
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    body
+    {
+      width:100%;
+    }
 }
