@@ -28,7 +28,7 @@ input[type=text],
 input[type=number],
 select 
 {
-    width: 80%;
+    width: 250px;
     padding: 12px 30px;
     margin: 8px 0;
     display: inline-block;
@@ -38,7 +38,7 @@ select
 }
 input[type=submit]
 {
-    width:35%;
+    width:100px;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -48,11 +48,13 @@ input[type=submit]
     border-radius: 4px;
     cursor: pointer;
 }
-div {
+.contact {
     
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 80px;
+    width: 400px;
+    margin: 50px auto;
+    /* margin-left: 500px auto;
+    margin-right: 500px auto;
+    margin-bottom: 80px; */
     border-radius: 5px;
     background-color: #ADD8E6;
     padding: 20px;
@@ -67,4 +69,6 @@ li{
     {
       width:100%;
     }
+
+
 }
