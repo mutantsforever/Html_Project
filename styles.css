@@ -1,8 +1,7 @@
 * { 
     box-sizing:border-box;
   }
-h1
-    {
+h1{
          font-size: 30px; 
     }
 #p01{
@@ -11,14 +10,35 @@ h1
 h2{
     color: #4CAF50;
 }
-p
-    {
+p{
         font-size: 30px;
     }
+h3{
+    background-color: steelblue;
+    color: snow;
+}
+caption{
+    background-color: silver;
+    color: white;
+}
+table{
+    width: 100%;
+}
+#th1{
+    color: white;
+    background-color: black;
+    /* border-collapse: collapse; */
+    border-radius: 40px;
+    padding: 12px 30px;
+}
+th, td{
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+}
 form
     {
         text-align: center;
-    }
+    }    
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
@@ -33,7 +53,7 @@ select
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 40px;
     box-sizing: border-box;
 }
 input[type=submit]
@@ -45,11 +65,16 @@ input[type=submit]
     margin-top: 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 40px;
     cursor: pointer;
 }
+#contact {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 40px;
+}
 div {
-    
     margin-left: 500px;
     margin-right: 500px;
     margin-bottom: 80px;
