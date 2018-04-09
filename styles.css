@@ -22,6 +22,9 @@ iframe{
     border: 1px solid black;
     border-radius: 10px;
 }
+#p01{
+    display: inline;
+}
 h3{
     background-color: steelblue;
     color: snow;
