@@ -22,8 +22,10 @@ iframe{
     border: 1px solid black;
     border-radius: 10px;
 }
-#p01{
-    display: inline;
+.cen {
+    /* display: inline; */
+    /* text-align: center; */
+    text-align: center; 
 }
 h3{
     background-color: steelblue;
@@ -80,20 +82,21 @@ input[type=submit]
     border-radius: 40px;
     cursor: pointer;
 }
-#contact {
+.contact {
     width: 350px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 40px;
+    background-color: #ADD8E6;
 }
-div {
+/* div {
     margin-left: 500px;
     margin-right: 500px;
     margin-bottom: 80px;
     border-radius: 5px;
     background-color: #ADD8E6;
     padding: 20px;
-}
+} */
 li{
     margin-bottom:5px;
     color: maroon;
