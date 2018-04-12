@@ -27,9 +27,21 @@ iframe{
     /* text-align: center; */
     text-align: center; 
 }
+.woi {
+    float: left;
+    margin-left: 15%;
+    margin-top: -1.5%;
+}
+.vl {
+    border-left: 3px solid black;
+    height: 210px;
+    margin-left: 50%;
+    margin-bottom: -1%;
+}
 h3{
     background-color: steelblue;
     color: snow;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 caption{
     background-color: silver;
