@@ -28,15 +28,18 @@ iframe{
     text-align: center; 
 }
 .woi {
-    float: left;
-    margin-left: 15%;
-    margin-top: -1.5%;
+    /* float: left; */
+    /* margin-left: 15%;
+    margin-top: -1.5%; */
+    /* max-width: 50%; */
 }
 .vl {
+    /* float: right; */
     border-left: 3px solid black;
-    height: 210px;
-    margin-left: 50%;
+    /* margin-left: 50%;
     margin-bottom: -1%;
+    margin: auto; */
+    /* max-width: 50%; */
 }
 h3{
     background-color: steelblue;
