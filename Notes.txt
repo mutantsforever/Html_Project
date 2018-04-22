@@ -1,0 +1,1 @@
+For Google Map - The mapTypeId property specifies the map type to display. The following map types are supported: ROADMAP, SATELLITE, HYBRID, and TERRAIN.
