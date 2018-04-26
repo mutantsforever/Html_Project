@@ -14,3 +14,7 @@ function myMap() {
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>;
+function myfunction(){
+    document.getElementById("nav").style.color = "white";
+    document.getElementById("nav").style.background = "green";
+}

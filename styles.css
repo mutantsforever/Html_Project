@@ -1,4 +1,11 @@
+button[type=button],
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
 * { 
+    background-color: #ccc;
     box-sizing:border-box;
   }
 h1{
@@ -76,8 +83,7 @@ h5{
     text-align: center;
 }
 #map{
-    
-    /* width: 400px; */
+    width: 400px;
     height: 400px;
     background: blue;
     box-sizing: border-box;
