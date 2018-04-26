@@ -1,8 +1,24 @@
-button[type=button],
-{
+a{
     text-decoration: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+.bluelink:hover{
+    background-color: steelblue;
+}
+.whitelink:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.greenlink:hover    {
+    background-color: green;
+}
+.paraspc{
+    margin-left: 20px;
 }
 * { 
     background-color: #ccc;
@@ -34,26 +50,23 @@ iframe{
     /* text-align: center; */
     text-align: center; 
 }
-.woi {
+/* .woi {
     position: absolute;
     width: 50%;
     text-align: center;
-    /* float: left; */
-    /* margin-left: 15%;
-    margin-top: -1.5%; */
-    /* max-width: 50%; */
-}
-.vl {
-    /* float: right; */
-    /* position: relative; */
-    /* display: inline-block; */
+    float: left; 
+    margin-left: 15%;
+    margin-top: -1.5%;
+    max-width: 50%;
+} */
+/* .vl {
+    display: inline-block;
     text-align: center;
     border-left: 3px solid black;
     margin-left: 50%;
-     margin-bottom: 10%;
-    /*margin: auto; */
-    /* max-width: 50%; */
-}
+    margin-bottom: -1%;
+    height: 200px;
+} */
 h3{
     background-color: steelblue;
     color: snow;
@@ -128,7 +141,7 @@ input[type=submit]
     margin: 50px auto;
     padding: 20px;
     border-radius: 40px;
-    background-color: #ADD8E6;
+    background-color: black;
 }
 /* div {
     margin-left: 500px;
@@ -148,5 +161,21 @@ li, ul a{
     body
     {
       width:100%;
+    }
+}
+@media (min-width:750px){
+    .responsive1{
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        border-right: 2px solid black;
+    }
+}
+
+@media (min-width:750px){
+    .responsive2{
+        display: inline-block;
+        width: 49%;
+        text-align: center;
     }
 }
