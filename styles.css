@@ -1,7 +1,9 @@
 a{
     text-decoration: none;
-    color: white;
     font-family: 'Times New Roman', Times, serif;
+}
+.thin_border{
+    border: 1px solid black;
 }
 a:hover{
     color: white;
@@ -21,7 +23,6 @@ a:hover{
     margin-left: 20px;
 }
 * { 
-    background-color: #ccc;
     box-sizing:border-box;
   }
 h1{
