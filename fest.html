@@ -1,9 +1,43 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="myscripts.js"></script>
 </head>
 <body>
         <h1 id="title" onclick="sayHello();">
             Hi Festival
         </h1>
+        <div onclick="swap();">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="crop-img"
+                     src="ganpati.jpg"
+                     alt="Ganpati Image">
+            </div>
+            <div class="col-md-3">
+                <img class="crop-img"
+                     src="concert.jpg"
+                     alt="concert Image">
+            </div>
+            <div class="col-md-3">
+                <img class="crop-img"
+                     src="holy.jpg"
+                     alt="holy Image">
+            </div>
+            <div class="col-md-3">
+                <img class="crop-img"
+                     src="diwali.jpg"
+                     alt="diwali Image">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img id="bigImage"
+                class="large-img"
+                src="ganpati.jpg"
+                alt="Ganpati Image"/>
+            </div>
+        </div>
+        </div>
 </body>

@@ -14,5 +14,16 @@ function myMap() {
 }
 
 function sayHello(){
-    alert('hello web');
+    $("#title").html('Hello');
+    $("#title").click(function(){
+        $("#title").html('Hi Festival');
+        $("#title").off("click");
+
+    })
+};
+function swap(){
+$(".crop-img").click(function(){
+    $("#bigImage").attr('src', 
+        $(this).attr('src'));
+})
 };
