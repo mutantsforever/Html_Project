@@ -5,39 +5,50 @@
     <script src="myscripts.js"></script>
 </head>
 <body>
-        <h1 id="title" onclick="sayHello();">
+    <div class="row">
+        <h1 id="title" class="col-md-8" onclick="sayHello();">
             Hi Festival
         </h1>
+        <br>
+        <!-- <h2 id="number" class="col-md-4" onclick="count();">
+            Click to count
+        </h2> -->
+    </div>    
         <div onclick="swap();">
         <div class="row">
             <div class="col-md-3">
-                <img class="crop-img"
+                <img id="image1" class="crop-img"
                      src="ganpati.jpg"
                      alt="Ganpati Image">
             </div>
             <div class="col-md-3">
-                <img class="crop-img"
+                <img id="image2" class="crop-img"
                      src="concert.jpg"
                      alt="concert Image">
             </div>
             <div class="col-md-3">
-                <img class="crop-img"
+                <img id="image3" class="crop-img"
                      src="holy.jpg"
                      alt="holy Image">
             </div>
             <div class="col-md-3">
-                <img class="crop-img"
+                <img id="image4" class="crop-img"
                      src="diwali.jpg"
                      alt="diwali Image">
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <img id="bigImage"
-                class="large-img"
-                src="ganpati.jpg"
-                alt="Ganpati Image"/>
-            </div>
+                <div class="row">
+                        <div class="col-md-1">
+                            <button id="backward">&lt;</button>
+                        </div>
+                        <div class="col-md-10">
+                            <img id="bigImage" class="large-img" src="ganpati.jpg" alt="Ganpati Image"/> 
+                        </div>
+                        <div class="col-md-1">
+                            <button id="forward">&gt;</button>
+                        </div>
+                    </div>
         </div>
         </div>
 </body>
