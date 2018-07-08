@@ -37,20 +37,20 @@ $(".crop-img").click(function(){
 // };
 
 var counter = 1;
-$("#image"+counter).click();
+$("#image" + counter).click();
 $("#backward").click(function (){
     counter = counter - 1;
     if(counter < 1){
         counter = 4;
     }
-    $("#image"+counter).click();
+    $("#image" + counter).click();
 });
 $("#forward").click(function (){
     counter = counter + 1;
     if(counter > 4){
 		counter = 1;
     }
-    $("#image"+counter).click();
+    $("#image" + counter).click();
 });
 $("#bigImage").click(function (){
 	paused = !paused;
